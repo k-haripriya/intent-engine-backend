@@ -23,4 +23,5 @@ urlpatterns = [
     path('api/v1/preferences/', include('apps.preferences.urls')),
     path('api/v1/auth/', include('apps.users.urls')),
     path('api/v1/refresh/', TokenRefreshView.as_view()),
+    path('api/v1/birthdays/', include('apps.birthdays.urls')),
 ]

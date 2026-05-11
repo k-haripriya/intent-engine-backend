@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'apps.users',
     'apps.preferences',
+    'apps.birthdays'
 ]
 
 REST_FRAMEWORK = {
